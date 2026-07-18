@@ -1,0 +1,21 @@
+{
+  "name": "automation-task-hub",
+  "version": "1.0.0",
+  "description": "Industrial workspace milestone and task tracking module",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "automation",
+    "iot",
+    "workspace",
+    "tracker"
+  ],
+  "author": "Technical Solutions Engineer",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}

@@ -1,0 +1,21 @@
+# Block local dependency folders from bloating the build context
+node_modules
+npm-debug.log
+
+# Block environment variables and system secrets
+.env
+.env.local
+
+# Block version control records
+.git
+.gitignore
+.github
+
+# Block OS-specific junk files
+Thumbs.db
+.DS_Store
+
+# Block development configuration documentation files
+README.md
+Dockerfile
+.dockerignore
